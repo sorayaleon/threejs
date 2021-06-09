@@ -9,3 +9,15 @@ const scene = new THREE.Scene();
 // Set the background color
 scene.background = new THREE.Color('skyblue');
 
+// Create a camera
+const fov = 35; // AKA Field of View
+const aspect = container.clientWidth / container.clientHeight;
+const near = 0.1; // the near clipping plane
+const far = 100; // the far clipping plane
+
+const camera = new THREE.PerspectiveCamera(fov, aspect, near, far);
+
+// every object is initially created at ( 0, 0, 0 )
+// move the camera back so we can view the scene
+camera.position.set(0, 0, 10);
+
