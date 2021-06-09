@@ -21,3 +21,14 @@ const camera = new THREE.PerspectiveCamera(fov, aspect, near, far);
 // move the camera back so we can view the scene
 camera.position.set(0, 0, 10);
 
+// create a geometry
+const geometry = new THREE.BoxBufferGeometry(2, 2, 2);
+
+// create a default (white) Basic material
+const material = new THREE.MeshBasicMaterial();
+
+// create a Mesh containing the geometry and material
+const cube = new THREE.Mesh(geometry, material);
+
+// add the mesh to the scene
+scene.add(cube);
