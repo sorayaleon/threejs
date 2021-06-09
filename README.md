@@ -5,5 +5,5 @@ This repository contains some projects that I have used to learn how to handle t
 
 
 ## Links
-- [Animated cube reference](https://threejs.org/docs/index.html#manual/en/introduction/Creating-a-scene).
-- [Hello cube reference](https://discoverthreejs.com/book/first-steps/first-scene/).
+- [Animated cube reference](https://threejs.org/docs/index.html#manual/en/introduction/Creating-a-scene){:target="_blank"}.
+- [Hello cube reference](https://discoverthreejs.com/book/first-steps/first-scene/){:target="_blank"}.
