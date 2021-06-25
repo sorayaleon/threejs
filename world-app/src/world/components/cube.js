@@ -10,6 +10,8 @@ function createCube() {
   // create a Mesh containing the geometry and material
   const cube = new THREE.Mesh(geometry, material);
 
+  cube.rotation.set(-0.6, 0, 0.6);
+
   return cube;
 }
 
