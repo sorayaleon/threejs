@@ -10,9 +10,9 @@ function init() {
     scene.add(camera);
 
     geometry = new THREE.IcosahedronGeometry(200, 1);
-    material = new THREE.MeshNormalMaterial();
+    material = new THREE.LineBasicMaterial({color: 0xff00ff});
 
-    mesh = new THREE.Mesh(geometry, material);
+    mesh = new THREE.Line(geometry, material);
     scene.add(mesh);
 
     renderer = new THREE.WebGLRenderer();
